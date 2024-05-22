@@ -1,0 +1,95 @@
+Ejercicio 2
+Un sistema de compresión de archivos se subdivide en dos partes z1 (compresión) y z2 (escritura en disco), donde z2 consume el 30% del tiempo total de computación. Las opciones de mejora son:
+F1: Optimización de z1, 2 veces más rápido
+F2: Optimización de z2, 4 veces más rápido
+Primero, definimos:
+P=0.3 (proporción del tiempo total que consume z2)
+La proporción del tiempo total que consume z1 es 1−𝑃=0.7
+Mejora total S para F1:
+S1=   1/((1-P)+P/F1)=1/(0.7+0.3/2)=1/(0.7+0.15)=1/0.85≈1.176
+Mejora total S para F2:
+S2=   1/((1-P)+P/F2)=1/(0.7+0.3/4)=1/(0.7+0.075)=1/0.775≈1.290
+Comparando S1 y S2:
+𝑆2 ≈ 1.290 > 𝑆1 ≈ 1.176 
+Por lo tanto, la opción más óptima es F2.
+
+Ejercicio 3
+Un sistema de análisis de datos se divide en a1 (carga de datos) y a2 (procesamiento de datos), donde a1 consume el 50% del tiempo total de computación. Las opciones de mejora son:
+F1: Optimización de a1, 4 veces más rápido
+F2: Optimización de a2, 3 veces más rápido
+Definimos:
+P=0.5 (proporción del tiempo total que consume a1)
+La proporción del tiempo total que consume a2 es 1−𝑃=0.5
+Mejora total S para F1:
+S1=   1/((1-P)+P/F1)=1/(0.5+0.5/4)=1/(0.5+0.125)=1/0.625≈1.600
+Mejora total S para F2:
+
+S2=   1/((1-P)+P/F2)=1/(0.5+0.5/3)=1/(0.5+0.1667)=1/0.6667≈1.500
+Comparando S1 y S2:
+𝑆1 = 1.600 > 𝑆2 ≈ 1.500
+Por lo tanto, la opción más óptima es F1.
+
+Ejercicio 4
+Un algoritmo de machine learning se divide en b1 (preprocesamiento) y b2 (entrenamiento del modelo), donde b2 consume el 70% del tiempo total de computación. Las opciones de mejora son:
+F1: Optimización de b1, 5 veces más rápido
+F2: Optimización de b2, 6 veces más rápido
+Definimos:
+P=0.7 (proporción del tiempo total que consume b2)
+La proporción del tiempo total que consume b1 es 1−𝑃=0.3
+Mejora total S para F1:
+S1=   1/((1-P)+P/F1)=1/(0.3+0.7/5)=1/(0.3+0.14)=1/0.44≈2.273
+Mejora total S para F2:
+S2=   1/((1-P)+P/F2)=1/(0.3+0.7/6)=1/(0.3+0.1167)=1/0.4167≈2.400
+Comparando S1 y S2:
+𝑆2 ≈ 2.400 > 𝑆1 ≈ 2.273
+Por lo tanto, la opción más óptima es F2.
+
+Ejercicio 5
+El proceso de renderizado de gráficos se divide en c1 (transformación) y c2 (rasterización), donde c1 consume el 60% del tiempo total de computación. Las opciones de mejora son:
+F1: Optimización de c1, 3 veces más rápido
+F2: Optimización de c2, 4 veces más rápido
+Definimos:
+P=0.6 (proporción del tiempo total que consume c1)
+La proporción del tiempo total que consume c2 es 1−𝑃=0.4
+Mejora total S para F1:
+S1=   1/((1-P)+P/F1)=1/(0.4+0.6/3)=1/(0.4+0.2)=1/0.6≈1.667
+Mejora total S para F2:
+S2=   1/((1-P)+P/F2)=1/(0.4+0.6/4)=1/(0.4+0.15)=1/0.55≈1.818
+
+Comparando S1 y S2:
+𝑆2 ≈ 1.818 > 𝑆1≈1.667
+Por lo tanto, la opción más óptima es F2.
+
+Ejercicio 6
+El proceso de transmisión de datos se divide en d1 (codificación) y d2 (transmisión), donde d2 consume el 45% del tiempo total de computación. Las opciones de mejora son:
+F1: Optimización de d1, 2 veces más rápido
+F2: Optimización de d2, 6 veces más rápido
+Definimos:
+P=0.45 (proporción del tiempo total que consume d2)
+La proporción del tiempo total que consume d1 es 1−𝑃=0.55
+Mejora total S para F1:
+S1=   1/((1-P)+P/F1)=1/(0.55+0.45/2)=1/(0.55+0.225)=1/0.775≈1.290
+
+Mejora total S para F2:
+S2=   1/((1-P)+P/F2)=1/(0.55+0.45/6)=1/(0.55+0.075)=1/0.625≈1.600
+
+Comparando S1 y S2:
+𝑆2 = 1.600 > 𝑆1 ≈ 1.290
+Por lo tanto, la opción más óptima es F2.
+
+Ejercicio 7
+El proceso de simulación de un sistema se divide en e1 (generación de eventos) y e2 (procesamiento de eventos), donde e1 consume el 55% del tiempo total de computación. Las opciones de mejora son:
+F1: Optimización de e1, 3 veces más rápido
+F2: Optimización de e2, 5 veces más rápido
+Definimos:
+P=0.55 (proporción del tiempo total que consume e1)
+La proporción del tiempo total que consume e2 es 1−𝑃=0.45
+Mejora total S para F1:
+S1=   1/((1-P)+P/F1)=1/(0.45+0.55/3)=1/(0.45+0.1833)=1/0.6333≈1.579
+Mejora total S para F2:
+
+S2=   1/((1-P)+P/F2)=1/(0.45+0.55/5)=1/(0.45+0.11)=1/0.56≈1.786
+
+Comparando S1 y S2:
+𝑆2 ≈ 1.786 > 𝑆1 ≈ 1.579
+Por lo tanto, la opción más óptima es F2.
